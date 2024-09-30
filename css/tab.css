@@ -1,0 +1,59 @@
+/* js tab css start */
+
+main{
+    width: 50%;
+    margin: 0 auto;
+}
+
+main .tab_body{
+    border: 1px solid gray;
+}
+
+main .tab_body .btn_group{
+    border-bottom: 1px solid transparent;
+    background-color: rgb(211, 206, 206);
+}
+
+main .tab_body .btn_group .btn {
+    border: transparent;
+    background-color: transparent;
+    transition: all linear .4s;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+
+main .tab_body .btn_group .btn:hover, .active{
+    background-color: silver;
+}
+
+
+main .tab_body .btn_group .btn a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000;
+}
+
+
+main .tab_body  .tab_content{
+    display: none;
+}
+
+main .tab_body  .tab_content h3{
+    font-size: 2rem;
+}
+
+main .tab_body  .tab_content p{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+/* js tab css end */
