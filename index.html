@@ -14,7 +14,7 @@
         </div>
         <div class="tab_body">
             <div class="btn_group">
-                <button type="button" class="btn" onclick="openCity(event, 'london')">
+                <button type="button" id="defult_open" class="btn" onclick="openCity(event, 'london')">
                    <a href="#">London</a>
                 </button>
 
@@ -28,17 +28,21 @@
                    <a href="#">Tokyo</a>
                 </button>
             </div>
+
             <div id="london" class="tab_content">
+                <span onclick="closeItem()"> &#10060;</span>
                 <h3>London</h3>
                 <p>London is the capital city of England.</p>
             </div>
 
             <div id="paris" class="tab_content">
+                <span onclick="closeItem()"> &#10060;</span>
                 <h3>Paris</h3>
                 <p>Paris is the capital of France.</p>
             </div>
 
             <div id="tokyo" class="tab_content">
+                <span onclick="closeItem()"> &#10060;</span>
                 <h3>Tokyo</h3>
                 <p>Tokyo is the capital of Japan.</p>
             </div>
